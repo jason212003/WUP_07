@@ -71,8 +71,14 @@ In the percentages i can see that more females are alive with the difference of 
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+In the group of 1831female were alive and 1411male were alive. All in all more female are alive than male. The p value is 1 out of a thousand in the Chi-square. It is a small chance to get male and female dying. In fisher's test 9 out of 10,000 the are about the same p value. You can also see the odds ratio of. the odds of female lving against the odds of male dying. We want to know that the odds of this is happening.
 
 
 ## Conclusions
-
+In today's lesson i learned to do a ggplot with the helper file. I change the class for result and name the project kRdata. I was also able to create a numerical graph in % and counting. I also run a Chi-square test and a fisher test and both are equal in p value. The final result is that we want to know what the odds are of this happening. All male are the ones who suffered more during this study. Female had an advantage over male.
